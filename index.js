@@ -14,7 +14,7 @@
   main().catch(err => console.log(err));
 
   async function main() {
-    await mongoose.connect('mongodb://127.0.0.1:27017/ecommerce');
+    await mongoose.connect('mongodb+srv://narsijangid01:12345678nj@cluster0.x8tzdfv.mongodb.net/ecommerce');
   console.log(process.env.SuccessStatus)
   }
 
